@@ -485,8 +485,19 @@ img {
     .gran__content {
         margin: 0;
         margin-top: 24px;
-
     }
+
+    .gran__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .gran__text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+
 }
 
 // gean end
@@ -634,7 +645,7 @@ img {
 }
 
 @media only screen and (max-width:576px) {
-    .container{
+    .container {
         padding: 30px;
     }
 
@@ -644,6 +655,16 @@ img {
 
     .best__texts {
         max-width: 279px;
+    }
+
+    .best__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .best__text {
+        font-size: 15px;
+        line-height: 25px;
     }
 
 
@@ -673,10 +694,14 @@ img {
 
     .item__title {
         text-align: center;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .item__text {
         margin: 0;
         text-align: center;
+        font-size: 15px;
+        line-height: 25px;
     }
 }
