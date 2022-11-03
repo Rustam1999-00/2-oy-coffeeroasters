@@ -634,6 +634,9 @@ img {
 }
 
 @media only screen and (max-width:576px) {
+    .container{
+        padding: 30px;
+    }
 
     .best__inner {
         background-size: 100% 70%;
