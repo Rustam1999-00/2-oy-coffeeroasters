@@ -1,0 +1,162 @@
+.coffer__inner {
+    margin-bottom: 34px;
+position: relative;
+background: #2C343E;
+  
+
+
+    padding: 100px 0 186px 85px;
+    border-radius: 8px;
+}
+
+.coffe__img{
+    width: 100%;
+    max-width: 445px;
+    height: 447px;
+    position: absolute;
+   
+    background-image: url("/image/coffe.jpg");
+    background-repeat: no-repeat;
+    background-size: 445PX 447PX;
+  top: -70px;
+  right: 70px;
+}
+
+.coffe__content {
+    width: 100%;
+    max-width: 540px;
+}
+
+.coffe__title {
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+
+    color: #FEFCF7;
+}
+
+.coffe__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width:768px) {
+    .coffer__inner {
+        margin-bottom: 34px;
+      margin-top: 200px;
+
+
+        background: #2C343E;
+        background-image: url("/image/coffe-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size: 573px 320px;
+        background-position: top -160px center;
+
+
+        padding: 220px 0 186px 0;
+        border-radius: 8px;
+    }
+    .coffe__img{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 573px;
+        height: 320px;
+        position: absolute;
+       
+        background-image: url("/image/coffe-tablet.jpg");
+        background-repeat: no-repeat;
+        background-size:  573px 320px;
+      top: -160px;
+      right: 0;
+      left: 0;
+    }
+
+    .coffe__title {
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height, or 150% */
+
+        text-align: center;
+    }
+
+    .coffe__text {
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+    }
+    .coffe__content{
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:576px) {
+    .coffer__inner {
+        margin-bottom: 34px;
+
+
+
+        background: #2C343E;
+        background-image: url("/image/coffe-mobil.jpg");
+        background-repeat: no-repeat;
+        background-size: 279px 156px;
+        background-position: top -75px center;
+
+
+        padding: 140px 0 186px 0;
+        border-radius: 8px;
+    }
+    .coffe__img{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 279px;
+        height: 156px;
+        position: absolute;
+       
+        background-image: url("/image/coffe-mobil.jpg");
+        background-repeat: no-repeat;
+        background-size:  100%;
+      top: -75px;
+      right: 0;
+      left: 0;
+    }
+    .coffe__content{
+     max-width: 279px;
+    }
+    .coffe__title{
+        font-size: 28px;
+        line-height: 28px;
+        /* or 100% */
+        
+        text-align: center;
+    }
+    .coffe__text{
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        
+    }
+    
+
+}

@@ -1,0 +1,338 @@
+.type__inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.type__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.type__item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #83888F;
+}
+
+.type__item:hover .type__title {
+    color: aquamarine;
+}
+
+.type__item:hover .type__titles {
+    color: #333D4B;
+}
+
+.type__title {
+    margin-right: 24px;
+    margin-bottom: 24px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+
+
+
+    color: #83888F;
+}
+
+.type__titles {
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 29px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+@media only screen and (max-width:768px) {
+
+    .type__list {
+        display: none;
+    }
+
+    .type__form {
+
+
+        max-width: 689px;
+    }
+
+    .wrapper {
+        column-gap: 10px;
+    }
+
+    .order__content {
+        max-width: 602px;
+        padding: 31px 44px;
+    }
+
+    .form__button {
+
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .type__form {
+
+
+        max-width: 328px;
+    }
+
+    .order__content {
+        max-width: 279px;
+        padding: 31px 25px;
+    }
+
+    .open {
+        height: 150px;
+    }
+
+
+    .type__lebel {
+
+        width: 328px;
+
+    }
+
+    .wrapper {
+        flex-direction: column;
+        row-gap: 16px;
+    }
+
+    .form__order {
+        width: 328px;
+    }
+}
+
+// FORM 
+.type__form {
+    // position: relative;
+    width: 100%;
+    max-width: 730px;
+}
+
+.form__contents {
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.form__contents2 {
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.form__contents3 {
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.form__contents4 {
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.form__contents5 {
+    margin-bottom: 88px;
+    overflow: hidden;
+}
+
+.open {
+    height: 150px;
+}
+
+.form__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.path__button {
+    border: none;
+    background: none;
+
+
+}
+
+.path__button2 {
+    border: none;
+    background: none;
+
+
+}
+
+.path__button3 {
+    border: none;
+    background: none;
+
+
+}
+
+.path__button4 {
+    border: none;
+    background: none;
+
+
+}
+
+.path__button5 {
+    border: none;
+    background: none;
+
+
+}
+
+.wrapper {
+    margin: 0;
+    margin-top: 36px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    column-gap: 23px;
+}
+
+.type__lebel {
+    width: 100%;
+    max-width: 288px;
+    // padding: 32px 28px 84px;
+
+    border-radius: 8px;
+}
+
+.type__input {
+    display: none;
+}
+
+.type__input:checked~.wrap {
+    background-color: aqua;
+
+}
+
+.type__input:checked~.wrap>.path__title {
+    color: #FFF;
+}
+
+.type__input:checked~.wrap>.path__text {
+    color: #FFF;
+}
+
+.wrap {
+    padding: 32px 20px 84px 28px;
+
+    // padding: 32px 28px 84px;
+    background: #F4F1EB;
+    border-radius: 8px;
+}
+
+
+.form__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+
+    color: #83888F;
+}
+
+
+.path__title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+
+    color: #333D4B;
+}
+
+.path__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #333D4B;
+}
+
+
+
+
+// ORDER STARD
+.form__order {
+    background: #2C343E;
+}
+
+.order__content {
+    width: 100%;
+    max-width: 602px;
+    padding: 32px 64px;
+}
+
+.order__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.order__text {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.order__strong {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #0E8784;
+}
+
+// BUTTON STEART
+.form__button {
+    display: flex;
+    justify-content: right;
+    margin: 50px 0 50px auto;
+    padding: 15px 35px;
+
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    border: none;
+}
+
+.form__button:hover {
+    background-color: chartreuse;
+}

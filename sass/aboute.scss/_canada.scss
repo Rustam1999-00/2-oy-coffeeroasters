@@ -1,0 +1,154 @@
+.canada__inner {
+    margin: 168px 0;
+}
+
+.canada__title {
+    margin-left: 85px;
+    margin-bottom: 72px;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #83888F;
+
+}
+
+.canada__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.canada__item {
+    position: relative;
+}
+
+.canada__item+.canada__item {
+    margin-left: 110px;
+}
+
+.canada__item:nth-child(1) {
+    margin-left: 85px;
+}
+
+.canada__item:nth-child(1)::before {
+
+    content: "";
+    position: absolute;
+    background-image: url("/image/canada-1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 41px;
+    height: 49px;
+    left: 0;
+    top: 0;
+
+}
+
+.canada__item:nth-child(2)::before {
+
+    content: "";
+    position: absolute;
+    background-image: url("/image/canada-2.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 41px;
+    height: 49px;
+    left: 0;
+    top: 0;
+
+}
+
+.canada__item:nth-child(3)::before {
+
+    content: "";
+    position: absolute;
+    background-image: url("/image/canada-3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 41px;
+    height: 49px;
+    left: 0;
+    top: 0;
+
+}
+
+
+
+.canada__titles {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 100px 0 0;
+
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+
+
+    color: #333D4B;
+}
+
+.canada__titles::before {
+    // content: "";
+    // position: absolute;
+    // background-image: url("/image/canada-1.svg");
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    // width: 41px;
+    // height: 49px;
+    // left: 0;
+    // top: 0;
+
+}
+
+.canada__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+@media only screen and (max-width:768px) {
+
+    .canada__item+.canada__item {
+        margin-left: 30px;
+    }
+
+    .canada__titles {
+        font-size: 24px;
+        line-height: 36px;
+    } 
+
+}
+
+@media only screen and (max-width:576px) {
+    .canada__title{
+        text-align: center;
+    }
+    .canada__list {
+        flex-direction: column;
+    }
+    .canada__item{
+        margin-bottom: 80px;
+    }
+    .canada__item+.canada__item {
+      margin: 0 auto;
+    //   margin-bottom: 80px;
+    }
+    
+    .canada__item:nth-child(1) {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    .canada__title{
+        margin-left: 0;
+    }
+}

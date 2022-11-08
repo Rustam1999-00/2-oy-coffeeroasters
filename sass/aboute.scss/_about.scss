@@ -1,0 +1,82 @@
+.about__inner {
+    margin: 45px 0 168px;
+
+    padding: 137px 0 137px 85px;
+    background: url("/image/aboute-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.about__content {
+    width: 100%;
+    max-width: 398px;
+  
+}
+
+.about__title {
+    margin-bottom: 24px;
+    padding: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+
+
+    color: #FEFCF7;
+}
+
+.about__text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #FEFCF7;
+
+
+}
+
+@media only screen and (max-width:576px) {
+    .about__inner{
+        margin: 0 ;
+        padding: 137px 0 137px;
+    }
+    .about__content {
+        max-width: 289px;
+        margin: 0 auto;
+    }
+
+    .about__title {
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .about__text {
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+
+        color: #FEFCF7;
+    }
+}
+
+
+
+
+
+
+
+
+
+// .about end
+// our start 

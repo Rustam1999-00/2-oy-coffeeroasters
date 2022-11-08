@@ -1,8 +1,14 @@
+.bottom{
+    background: #2C343E;
+}
 .bottom__inner {
     padding: 47px 85px;
     display: flex;
     align-items: center;
-    background: #2C343E;
+
+}
+.bottom__img:hover{
+border-bottom: 3px solid aqua;
 }
 
 
@@ -18,8 +24,9 @@
     align-items: center;
 
 }
+
 .bottom__item+.bottom__item {
-    margin-left: 33px;
+  margin-left: 32px;
 }
 
 .bottom__link {
@@ -29,6 +36,9 @@
     line-height: 15px;
     letter-spacing: 0.923077px;
     color: #83888F;
+}
+.bottom__link:hover{
+    color: aqua;
 }
 
 .tarmoq {
@@ -45,18 +55,45 @@
 }
 
 .tarmoq__item+.tarmoq__item {
-    margin-left: 24px;sass\blocks\_footer.scss
+    margin-left: 24px;
+}
+.tarmoq__item:hover{
+opacity: 0.2;
 }
 
 
 @media only screen and (max-width:768px) {
-    .best__inner{
+    .bottom__inner {
 
         flex-direction: column;
     }
-    
+    .bottom__img{
+        margin: 54px 0 32px  0;
+    }
+    .bottom__links{
+        margin-top: 50px;
+        margin: 0 auto;
+  margin-bottom: 67px;
+    }
+    .tarmoq{
+        margin: 0 auto;
+        margin-bottom: 54px;
+    }
+
 }
 
 @media only screen and (max-width:576px) {
-    
+    .bottom__list{
+        flex-direction: column;
+    }
+    .bottom__item{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .bottom__link{
+        text-align: center;
+    }
+    .bottom__item+.bottom__item {
+        margin-left: 0;
+      }
 }
