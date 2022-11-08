@@ -1592,7 +1592,7 @@ img {
 }
 
 .type__input:checked ~ .wrap {
-  background-color: aqua;
+  background-color: #0E8784;
 }
 
 .type__input:checked ~ .wrap > .path__title {
